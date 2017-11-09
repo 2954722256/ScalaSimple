@@ -9,9 +9,9 @@ object Obj803member {
     val results = getSomeLineFromFile("a.txt", 10);
     for (line <- results) println(line);
   }
-  
-  
+
   /**
+   * 【对于line的长度的是否 > needLen】
    * 有返回值的方法
    * 	返回值类型， 在 : 后面
    */
@@ -20,11 +20,12 @@ object Obj803member {
   }
 
   /**
+   * 得到所有行， 返回  大于 needLen 的行
    * 没有返回值的方法
    */
   def getSomeLineFromFile(fpath: String, needLen: Int) = {
     val lines = Source.fromFile(fpath).getLines();
-    for (line <- lines if isOk(line, needLen)) yield line;
+    for (lineIn <- lines if isOk(lineIn, needLen)) yield lineIn;
   }
 
 }
