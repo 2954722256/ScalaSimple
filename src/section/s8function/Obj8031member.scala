@@ -4,7 +4,7 @@ import scala.io.Source
 /**
  * 成员函数， 也就是属于一个类的函数
  */
-object Obj803member {
+object Obj8031member {
   def main(args: Array[String]): Unit = {
     val results = getSomeLineFromFile("a.txt", 10);
     for (line <- results) println(line);
