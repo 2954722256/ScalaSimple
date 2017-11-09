@@ -1,4 +1,4 @@
-
+package tea
 /**
  * 其他
  * 	泛型 lazy option caseclass

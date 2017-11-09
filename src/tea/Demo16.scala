@@ -1,5 +1,4 @@
-
-package cn.tedu.scala;
+package tea
 /**
  * package包
  */

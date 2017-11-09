@@ -1,4 +1,4 @@
-
+package tea
 /**
  * 特质
  */
