@@ -11,7 +11,7 @@ package park{
     class Person_16{}    
   }
   package bbb{
-    package ccc{
+    package tea.tea8_13{
       class Teacher_16{}
     }
   }
