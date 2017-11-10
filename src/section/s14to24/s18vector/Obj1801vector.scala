@@ -1,4 +1,6 @@
-package section.s18vector
+package section.s14to24.s18vector
+
+import scala.Vector
 /**
  * 和ｌｉｓｔ差不多
  * 		只是查找，　比ｌｉｓｔ快

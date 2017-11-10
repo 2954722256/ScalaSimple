@@ -11,6 +11,6 @@ object Obj2301jihe {
     
     //差集
     val result1 = list1.diff(list2)
-    println(result)
+//    println(result)
   }
 }

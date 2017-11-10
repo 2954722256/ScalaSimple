@@ -1,4 +1,4 @@
-package section.s16buffer
+package section.s14to24.s16buffer
 
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.ListBuffer

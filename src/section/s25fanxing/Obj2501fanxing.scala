@@ -6,6 +6,13 @@ object Obj2501fanxing {
   }
 
   def doF01() = {
+    val arr = Array[String]("a","b","c");
+    
     
   }
+  
+  def doFclass() = {
+    
+  }
+  
 }
