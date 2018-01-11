@@ -23,7 +23,10 @@ object Demo10 {
     
     //2.自定义控制结构
     addAndPrint2(2, 3){
-      println(_)
+      def doF2(int : Int):Unit = {
+        println(4)
+      }
+      doF2
     }
     
     val l1 = List(1,3,5,7,9)

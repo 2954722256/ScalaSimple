@@ -20,7 +20,9 @@ object Obj902kelihua {
     	val sum = n1 + n2
 			pfunc(sum)
     }
+    
     //1个Int参数，1个Int参数， 单独 一个函数参数
+    //这个时候，传入一个函数即可， 函数传入一个
     def addAndPrint3(n1:Int)(n2:Int)(pfunc:(Int)=>Unit){
     	val sum = n1 + n2
 			pfunc(sum)

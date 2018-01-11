@@ -6,7 +6,7 @@ package tea.tea8_13
 class Person_03{
   def eat(food:String){
     println("人在么么么么的"+food)
-  }  
+  }
 }
 
 object Demo03 {

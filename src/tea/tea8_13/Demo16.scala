@@ -3,7 +3,8 @@ package tea
  * package包
  */
 object Demo16 {
-  
+//  park.aaa.Person_16
+//  park.bbb.tea.tea8_13.Teacher_16
 }
 
 package park{
