@@ -1,4 +1,4 @@
-package dodo.s01base
+package dodo.s00base
 
 object S01C01Hello {
   
