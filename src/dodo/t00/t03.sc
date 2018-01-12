@@ -1,33 +1,15 @@
 package dodo.t00
 
-object t01 {
+object t03 {
   println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
 
-	def func01(num : Int)={
-		for(i <- 0 to num){
-			println(num-i)
-		}
-	}                                         //> func01: (num: Int)Unit
-	
-	def func011(num : Int)={
-		for(i <- 0 to num reverse){
+	def countdown(n:Int)={
+		for(i<-0 to n reverse){
 			println(i)
 		}
-	}                                         //> func011: (num: Int)Unit
+	}                                         //> countdown: (n: Int)Unit
 	
-	func01(10)                                //> 10
-                                                  //| 9
-                                                  //| 8
-                                                  //| 7
-                                                  //| 6
-                                                  //| 5
-                                                  //| 4
-                                                  //| 3
-                                                  //| 2
-                                                  //| 1
-                                                  //| 0
-
-	func011(10)                               //> 10
+	countdown(10)                             //> 10
                                                   //| 9
                                                   //| 8
                                                   //| 7
@@ -40,4 +22,24 @@ object t01 {
                                                   //| 0
 
 
+	def countdown2(n:Int)={
+		for(i<-0 to n reverse;val flag=if(i!=0)" "else"end"){
+			print(i+flag)
+		}
+	}                                         //> countdown2: (n: Int)Unit
+
+	countdown2(10)                            //> 10 9 8 7 6 5 4 3 2 1 0end
+		
+		countdown(10)                     //> 10
+                                                  //| 9
+                                                  //| 8
+                                                  //| 7
+                                                  //| 6
+                                                  //| 5
+                                                  //| 4
+                                                  //| 3
+                                                  //| 2
+                                                  //| 1
+                                                  //| 0
+	
 }
