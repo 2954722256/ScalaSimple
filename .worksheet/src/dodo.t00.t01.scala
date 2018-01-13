@@ -7,11 +7,11 @@ object t01 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; d
 		for(i <- 0 to num){
 			println(num-i)
 		}
-	};System.out.println("""func01: (num: Int)Unit""");$skip(81); 
+	};System.out.println("""func01: (num: Int)Unit""");$skip(79); 
 	
 	def func011(num : Int)={
 		for(i <- 0 to num reverse){
-			println(num)
+			println(i)
 		}
 	};System.out.println("""func011: (num: Int)Unit""");$skip(14); 
 	

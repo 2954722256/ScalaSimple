@@ -31,7 +31,20 @@ object t13 {
 
 
 	func13(Array(1, -2, 0, -3, 0, 4, 5) )     //> res0: Array[Int] = Array(1, 4, 5, 0, 0, -2, -3)
+	func13(Array(1, -2, 0, -3, 0, 4, 5,2,-1) )//> res1: Array[Int] = Array(1, 2, 4, 5, 0, 0, -1, -2, -3)
 
+	//	很巧妙，
+	def func131(arr:Array[Int])={
+			var buf = new ArrayBuffer[Int]();
+			buf ++= (for(i<-arr if i>0) yield i)
+			buf ++= (for(i<-arr if i==0) yield i)
+			buf ++= (for(i<-arr if i<0) yield i)
+			buf.toArray
+	}                                         //> func131: (arr: Array[Int])Array[Int]
 
+	func131(Array(1, -2, 0, -3, 0, 4, 5,2,-1) )
+                                                  //> res2: Array[Int] = Array(1, 4, 5, 2, 0, 0, -2, -3, -1)
+	func131(Array(1, -2, 0, -3, 0, 4, 5) )    //> res3: Array[Int] = Array(1, 4, 5, 0, 0, -2, -3)
+  
   print("end")
 }
